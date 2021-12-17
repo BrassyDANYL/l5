@@ -1,0 +1,88 @@
+._scroll{
+		background-color: #000;
+		transition: 0.5s;
+		height: 60px;
+	}
+
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	
+	.header__container {
+		position: relative;
+		
+		.logo{
+		
+			.logo__left{
+				width: 69px;
+				height: 18px;
+				font-family: Quicksand;
+				font-size: 24px;
+				line-height: 58px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #ffffff;
+			}
+			.logo__right{
+				width: 44px;
+				height: 16px;
+				position: relative;
+				left:76px;
+				top:2px;
+				opacity: 0.3;
+				font-family: 'Source Sans Pro';
+				font-size: 9px;
+				line-height: 10px;
+				font-weight: 400;
+				text-transform: uppercase;
+				letter-spacing: 0.14em;
+				color: #ffffff;
+		}
+
+
+	}
+	.menu{
+		position: relative;
+		width: 590px;
+		height: 16px;
+		display: flex;
+		
+		left:145px;
+		li{
+			font-family: 'Source Sans Pro';
+			font-size: 16px;
+			line-height: 58px;
+			font-weight: 600;
+			color: #fffefe;
+			
+		}
+		.l2{
+			margin-left: 25px;
+		}
+		.l3{
+			margin-left: 27px;
+		}
+		.l4{
+			margin-left: 25px;
+		}
+		.l5{
+			margin-left: 27px;
+		}
+		.l6{
+			margin-left: 25px;
+		}
+		li:hover{
+				cursor: pointer;
+				background-image: url(../img/linii.png);
+				background-position: bottom center;
+				background-repeat: round;
+				height: 2px;
+				background-origin: bottom-box;
+			
+				
+			}
+	}
+	
+}
+}
