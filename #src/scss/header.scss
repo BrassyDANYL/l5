@@ -11,7 +11,7 @@
 	
 	.header__container {
 		position: relative;
-		
+		.row{
 		.logo{
 		
 			.logo__left{
@@ -45,18 +45,18 @@
 	.menu{
 		position: relative;
 		width: 590px;
-		height: 16px;
 		display: flex;
-		
 		left:145px;
+	
 		li{
+			display: flex;
 			font-family: 'Source Sans Pro';
 			font-size: 16px;
 			line-height: 58px;
 			font-weight: 600;
 			color: #fffefe;
-			
 		}
+		
 		.l2{
 			margin-left: 25px;
 		}
@@ -73,16 +73,19 @@
 			margin-left: 25px;
 		}
 		li:hover{
+		
 				cursor: pointer;
 				background-image: url(../img/linii.png);
-				background-position: bottom center;
+				background-position: center bottom;
 				background-repeat: round;
 				height: 2px;
 				background-origin: bottom-box;
-			
+
+				
 				
 			}
 	}
 	
+}
 }
 }

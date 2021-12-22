@@ -794,7 +794,7 @@ body.ie ._ibg img {
 .header .header__container {
   position: relative;
 }
-.header .header__container .logo .logo__left {
+.header .header__container .row .logo .logo__left {
   width: 69px;
   height: 18px;
   font-family: Quicksand;
@@ -804,7 +804,7 @@ body.ie ._ibg img {
   text-transform: uppercase;
   color: #ffffff;
 }
-.header .header__container .logo .logo__right {
+.header .header__container .row .logo .logo__right {
   width: 44px;
   height: 16px;
   position: relative;
@@ -819,39 +819,39 @@ body.ie ._ibg img {
   letter-spacing: 0.14em;
   color: #ffffff;
 }
-.header .header__container .menu {
+.header .header__container .row .menu {
   position: relative;
   width: 590px;
-  height: 16px;
   display: flex;
   left: 145px;
 }
-.header .header__container .menu li {
+.header .header__container .row .menu li {
+  display: flex;
   font-family: "Source Sans Pro";
   font-size: 16px;
   line-height: 58px;
   font-weight: 600;
   color: #fffefe;
 }
-.header .header__container .menu .l2 {
+.header .header__container .row .menu .l2 {
   margin-left: 25px;
 }
-.header .header__container .menu .l3 {
+.header .header__container .row .menu .l3 {
   margin-left: 27px;
 }
-.header .header__container .menu .l4 {
+.header .header__container .row .menu .l4 {
   margin-left: 25px;
 }
-.header .header__container .menu .l5 {
+.header .header__container .row .menu .l5 {
   margin-left: 27px;
 }
-.header .header__container .menu .l6 {
+.header .header__container .row .menu .l6 {
   margin-left: 25px;
 }
-.header .header__container .menu li:hover {
+.header .header__container .row .menu li:hover {
   cursor: pointer;
   background-image: url(../img/linii.png);
-  background-position: bottom center;
+  background-position: center bottom;
   background-repeat: round;
   height: 2px;
   background-origin: bottom-box;
@@ -966,23 +966,25 @@ body.ie ._ibg img {
 }
 
 .whiteblock {
-  border: 1px solid black;
   position: relative;
   height: 1320px;
   display: flex;
   justify-content: center;
 }
-.whiteblock .row .whiteblock__title {
+.whiteblock .whiteblock__title {
   display: flex;
   position: relative;
-  top: 45px;
+  top: 44px;
   width: 365px;
   height: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.whiteblock .row .whiteblock__title h6 {
+.whiteblock .whiteblock__title h6 {
+  position: relative;
+  left: 12px;
+  top: 3px;
   font-family: "Source Sans Pro";
   font-size: 14px;
   line-height: 48px;
@@ -992,7 +994,10 @@ body.ie ._ibg img {
   color: #008ed6;
   text-align: center;
 }
-.whiteblock .row .whiteblock__title h2 {
+.whiteblock .whiteblock__title h2 {
+  position: relative;
+  top: -5px;
+  left: 10px;
   font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 36px;
@@ -1002,21 +1007,23 @@ body.ie ._ibg img {
   color: #1a1a1a;
   white-space: nowrap;
 }
-.whiteblock .row .whiteblock__title img {
+.whiteblock .whiteblock__title img {
   display: flex;
   top: 125px;
   position: absolute;
   align-self: center;
 }
-.whiteblock .whiteblock_kits {
+.whiteblock .row .whiteblock_kits {
   position: relative;
   left: 25px;
-  top: -307px;
+  top: 190px;
+  height: 340px;
   display: flex;
   justify-content: space-between;
   justify-items: center;
+  align-content: center;
 }
-.whiteblock .whiteblock_kits .item {
+.whiteblock .row .whiteblock_kits .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1024,7 +1031,7 @@ body.ie ._ibg img {
   width: 229px;
   height: 256px;
 }
-.whiteblock .whiteblock_kits .item .img {
+.whiteblock .row .whiteblock_kits .item .img {
   position: relative;
   bottom: 35px;
   left: 67px;
@@ -1033,19 +1040,20 @@ body.ie ._ibg img {
   border: 1px solid #e4e4e4;
   border-radius: 50px;
 }
-.whiteblock .whiteblock_kits .item .img img {
+.whiteblock .row .whiteblock_kits .item .img img {
   position: absolute;
   left: 28px;
   top: 35%;
 }
-.whiteblock .whiteblock_kits .item .title {
+.whiteblock .row .whiteblock_kits .item .title {
   font-family: "Source Sans Pro";
   font-size: 24px;
   line-height: 20px;
   font-weight: 400;
   color: #1a1a1a;
+  position: relative;
 }
-.whiteblock .whiteblock_kits .item p {
+.whiteblock .row .whiteblock_kits .item p {
   position: relative;
   left: -20px;
   font-size: 18px;
@@ -1053,32 +1061,141 @@ body.ie ._ibg img {
   color: #999999;
   width: 270px;
 }
-.whiteblock .whiteblock_kits .item p span {
+.whiteblock .row .whiteblock_kits .item p span {
   position: relative;
   font-size: 18px;
   line-height: 36px;
   color: #999999;
   top: 5px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item1 p {
-  top: 7px;
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item1 .img {
+  top: -50px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item1 .title {
+  top: -15px;
+  left: -30px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item1 p {
+  top: -8px;
   left: -16px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item2 .img img {
-  top: 28px;
-  left: 27px;
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item2 .img {
+  top: -53px;
+  left: 90px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item3 .img {
-  left: 60px;
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item2 .title {
+  top: -15px;
+  left: -10px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item3 .img img {
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item2 p {
+  top: -10px;
+  left: 10px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item3 .img {
+  top: -50px;
+  left: 115px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item3 .img img {
   top: 28px;
   left: 26px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item4 .img {
-  left: 55px;
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item3 .title {
+  top: -15px;
+  left: 15px;
 }
-.whiteblock .whiteblock_kits .whiteblock_kits_item4 .img img {
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item3 p {
+  top: -9px;
+  left: 30px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item4 .img {
+  top: -50px;
+  left: 135px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item4 .img img {
   left: 35px;
   top: 28px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item4 .title {
+  top: -15px;
+  left: 35px;
+}
+.whiteblock .row .whiteblock_kits .whiteblock_kits_item4 p {
+  top: -10px;
+  left: 52px;
+}
+.whiteblock .row hr {
+  position: relative;
+  top: 150px;
+  color: #ededed;
+}
+.whiteblock .row .whiteblock__about {
+  left: 0px;
+  width: 100%;
+  position: relative;
+  top: 320px;
+  height: 980px;
+  display: flex;
+}
+.whiteblock .row .whiteblock__about .row .image img {
+  position: relative;
+  width: 525px;
+  height: 636px;
+  top: -120px;
+  left: 20px;
+}
+.whiteblock .row .whiteblock__about .row .text {
+  border: 1px solid black;
+  position: relative;
+  top: -78px;
+  left: 68px;
+  width: 466px;
+  height: 384px;
+}
+.whiteblock .row .whiteblock__about .row .text h6 {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #008ed6;
+}
+.whiteblock .row .whiteblock__about .row .text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+.whiteblock .row .whiteblock__about .row .text p {
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #999999;
+}
+.whiteblock .row .whiteblock__about .row .text p span {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #999999;
+}
+.whiteblock .row .whiteblock__about .row .text ul .lil {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1b1b1b;
+}
+.whiteblock .row .whiteblock__about .row .text ul li {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1b1b1b;
 }
