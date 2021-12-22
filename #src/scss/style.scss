@@ -15,7 +15,7 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontFamily: "";
+$fontFamily: "Source Sans Pro";
 $fontSize: 16;
 //</Шрифт по умолчанию>==========================================================================================
 
@@ -114,8 +114,9 @@ body {
 				font-size: 14px;
 				line-height: 48px;
 				font-weight: 700;
+				word-spacing: 2.1px;
 				text-transform: uppercase;
-				letter-spacing: 0.1em;
+				letter-spacing: 0.11em;
 				color: #008ed6;
 			}
 			.text__general {
@@ -123,10 +124,13 @@ body {
 				font-size: 48px;
 				line-height: 65px;
 				font-weight: 600;
+				word-spacing: 5px;
+				letter-spacing: 0.3em;
 				text-transform: none;
 				letter-spacing: normal;
 				color: #ffffff;
 				p {
+					font-family: "Source Sans Pro";
 					font-size: 48px;
 					font-weight: 600;
 					text-transform: none;
@@ -136,6 +140,8 @@ body {
 				}
 			}
 			.text__about {
+				width: 480px;
+				font-family: "Source Sans Pro";
 				font-size: 18px;
 				line-height: 50px;
 				font-weight: 400;
@@ -401,11 +407,10 @@ body {
 					}
 				}
 				.text {
-					border: 1px solid black;
 					position: relative;
 					top: -78px;
 					left: 68px;
-					width: 466px;
+					width: 506px;
 					height: 384px;
 					h6 {
 						font-family: "Source Sans Pro";
@@ -417,6 +422,11 @@ body {
 						color: #008ed6;
 					}
 					h1 {
+						word-spacing: 4px;
+						font-family: "Source Sans Pro";
+						position: relative;
+						top: -10px;
+						left: -1px;
 						font-size: 36px;
 						font-weight: 600;
 						text-transform: none;
@@ -424,32 +434,32 @@ body {
 						color: #1a1a1a;
 					}
 					img {
+						position: relative;
+						top: -2px;
+						left: -1px;
 					}
 					p {
+						position: relative;
+						top: 15px;
+						left: -1px;
+						font-family: "Source Sans Pro";
 						font-size: 18px;
-						line-height: 45px;
+						line-height: 26px;
 						font-weight: 400;
 						text-transform: none;
 						letter-spacing: normal;
 						color: #999999;
+						word-spacing: 1px;
 						span {
-							font-size: 18px;
-							line-height: normal;
-							font-weight: 400;
-							text-transform: none;
-							letter-spacing: normal;
-							color: #999999;
+							line-height: 26px;
 						}
 					}
 					ul {
-						.lil {
-							font-size: 18px;
-							line-height: 30px;
-							font-weight: 400;
-							text-transform: none;
-							letter-spacing: normal;
-							color: #1b1b1b;
-						}
+						font-family: "Source Sans Pro";
+						position: relative;
+						left: -30px;
+						top: 28px;
+						word-spacing: 1px;
 						li {
 							font-size: 18px;
 							line-height: 36px;
@@ -457,10 +467,89 @@ body {
 							text-transform: none;
 							letter-spacing: normal;
 							color: #1b1b1b;
+							img {
+								margin-right: 10px;
+							}
+						}
+						.lil {
+							position: relative;
+							top: 3px;
+							left: -5px;
 						}
 					}
 				}
 			}
 		}
 	}
+}
+.graybackground{
+		background-color:#f2f2f2;
+.gray {
+	background-color:#f2f2f2;
+	height: 560px;
+	
+	.row {
+		.text {
+				position: relative;
+				top:115px;
+
+			h6 {
+				font-family: 'Source Sans Pro';
+				font-size: 14px;
+				line-height: 48px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				color: #008ed6;
+			}
+			
+				img{
+				position: relative;
+				top:-5px;
+				left:-3px;
+				}
+			
+			h1{
+				position: relative;
+				top:-14px;
+				left:-1px;
+				font-family: 'Source Sans Pro';
+				font-size: 36px;
+				font-weight: 600;
+				text-transform: none;
+				letter-spacing: normal;
+				color: #1a1a1a;
+				word-spacing: 3.1px;
+			}
+			p{
+
+				position: relative;
+				top:10px;
+				left:-2px;
+				width:470px;
+				font-family: 'Source Sans Pro';
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 400;
+	
+				text-transform: none;
+				letter-spacing: normal;
+				color: #999999;
+			}
+
+		}
+		.img {
+			position: relative;
+			top:-275px;
+			left:430px;
+			img {
+				width: 738px;
+				height: 521px;
+				position: relative;
+				top: 30px;
+				left: 50px;
+			}
+		}
+	}
+}
 }

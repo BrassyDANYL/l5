@@ -65,7 +65,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "";
+  font-family: "Source Sans Pro";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -74,7 +74,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "";
+  font-family: "Source Sans Pro";
   font-size: inherit;
 }
 
@@ -881,8 +881,9 @@ body.ie ._ibg img {
   font-size: 14px;
   line-height: 48px;
   font-weight: 700;
+  word-spacing: 2.1px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.11em;
   color: #008ed6;
 }
 .topcontent ._container .text .text__general {
@@ -890,11 +891,14 @@ body.ie ._ibg img {
   font-size: 48px;
   line-height: 65px;
   font-weight: 600;
+  word-spacing: 5px;
+  letter-spacing: 0.3em;
   text-transform: none;
   letter-spacing: normal;
   color: #ffffff;
 }
 .topcontent ._container .text .text__general p {
+  font-family: "Source Sans Pro";
   font-size: 48px;
   font-weight: 600;
   text-transform: none;
@@ -903,6 +907,8 @@ body.ie ._ibg img {
   line-height: 32px;
 }
 .topcontent ._container .text .text__about {
+  width: 480px;
+  font-family: "Source Sans Pro";
   font-size: 18px;
   line-height: 50px;
   font-weight: 400;
@@ -1144,11 +1150,10 @@ body.ie ._ibg img {
   left: 20px;
 }
 .whiteblock .row .whiteblock__about .row .text {
-  border: 1px solid black;
   position: relative;
   top: -78px;
   left: 68px;
-  width: 466px;
+  width: 506px;
   height: 384px;
 }
 .whiteblock .row .whiteblock__about .row .text h6 {
@@ -1161,35 +1166,44 @@ body.ie ._ibg img {
   color: #008ed6;
 }
 .whiteblock .row .whiteblock__about .row .text h1 {
+  word-spacing: 4px;
+  font-family: "Source Sans Pro";
+  position: relative;
+  top: -10px;
+  left: -1px;
   font-size: 36px;
   font-weight: 600;
   text-transform: none;
   letter-spacing: normal;
   color: #1a1a1a;
 }
+.whiteblock .row .whiteblock__about .row .text img {
+  position: relative;
+  top: -2px;
+  left: -1px;
+}
 .whiteblock .row .whiteblock__about .row .text p {
+  position: relative;
+  top: 15px;
+  left: -1px;
+  font-family: "Source Sans Pro";
   font-size: 18px;
-  line-height: 45px;
+  line-height: 26px;
   font-weight: 400;
   text-transform: none;
   letter-spacing: normal;
   color: #999999;
+  word-spacing: 1px;
 }
 .whiteblock .row .whiteblock__about .row .text p span {
-  font-size: 18px;
-  line-height: normal;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: normal;
-  color: #999999;
+  line-height: 26px;
 }
-.whiteblock .row .whiteblock__about .row .text ul .lil {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: normal;
-  color: #1b1b1b;
+.whiteblock .row .whiteblock__about .row .text ul {
+  font-family: "Source Sans Pro";
+  position: relative;
+  left: -30px;
+  top: 28px;
+  word-spacing: 1px;
 }
 .whiteblock .row .whiteblock__about .row .text ul li {
   font-size: 18px;
@@ -1198,4 +1212,75 @@ body.ie ._ibg img {
   text-transform: none;
   letter-spacing: normal;
   color: #1b1b1b;
+}
+.whiteblock .row .whiteblock__about .row .text ul li img {
+  margin-right: 10px;
+}
+.whiteblock .row .whiteblock__about .row .text ul .lil {
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+.graybackground {
+  background-color: #f2f2f2;
+}
+.graybackground .gray {
+  background-color: #f2f2f2;
+  height: 560px;
+}
+.graybackground .gray .row .text {
+  position: relative;
+  top: 115px;
+}
+.graybackground .gray .row .text h6 {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #008ed6;
+}
+.graybackground .gray .row .text img {
+  position: relative;
+  top: -5px;
+  left: -3px;
+}
+.graybackground .gray .row .text h1 {
+  position: relative;
+  top: -14px;
+  left: -1px;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1a1a1a;
+  word-spacing: 3.1px;
+}
+.graybackground .gray .row .text p {
+  position: relative;
+  top: 10px;
+  left: -2px;
+  width: 470px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #999999;
+}
+.graybackground .gray .row .img {
+  position: relative;
+  top: -275px;
+  left: 430px;
+}
+.graybackground .gray .row .img img {
+  width: 738px;
+  height: 521px;
+  position: relative;
+  top: 30px;
+  left: 50px;
 }
