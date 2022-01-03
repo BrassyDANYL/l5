@@ -1,4 +1,44 @@
 footer {
+   margin-top: -10px;
+   background-color: black;
+   height:150px;
+   .footer__container{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin: auto auto;
+      flex-direction: column;
+      
+      
+      .container{
+         display: flex;
+         justify-content: center;
+         margin-top: 70px;
+         
+         .icon{
+            width: 15px;
+            height: 15px;
+            margin-right:20px;
+         }
+         .icon:hover{
+            transition: 0.2s;
+            color:#008ed6;
+         }
+
+      }
+      .copyright{
+         display: flex;
+         justify-content: center;
+         font-family: 'Source Sans Pro';
+         font-size: 14px;
+         line-height: 48px;
+         font-weight: 600;
+         text-transform: uppercase;
+         color: #444348;
+         margin-top: 10px;
+        
+      }
+   }
 }
 //====================================================================================================
 

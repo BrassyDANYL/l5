@@ -12,6 +12,8 @@
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
 </head>
 
 <body>
@@ -26,13 +28,18 @@
 			<div class="logo__right">onepage<br>theme</div>
 		</div>
 		<!--Меню-->
-		<ul class="menu col">
-			<li class="l1">Home</li>
-			<li class="l2">Features</li>
-			<li class="l3">About</li>
-			<li class="l4">Testimonials</li>
-			<li class="l5">Pricing</li>
-			<li class="l6">Contact</li>
+		<div class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul class="menu-body">
+			<li class="l1"><a class="_goto" href="#header">Home</a></li>
+			<li class="l2"><a class="_goto" href="#whiteblock ">Features</a><img class="linkdec" src="img/linii.png" alt="link dec"></li>
+			<li class="l3"><a class="_goto" href="#whiteblock__about">About</a><img class="linkdec" src="img/linii.png" alt="link dec"></li>
+			<li class="l4"><a class="_goto" href="#reviews">Testimonials</a><img class="linkdec" src="img/linii.png" alt="link dec"></li>
+			<li class="l5"><a class="_goto" href="#pricing">Pricing</a><img class="linkdec" src="img/linii.png" alt="link dec"></li>
+			<li class="l6"><a class="_goto" href="#contact">Contact</a><img class="linkdec" src="img/linii.png" alt="link dec"></li>
 		</ul>
 
 </div>
@@ -41,27 +48,29 @@
 		<main class="page">
 			<div class="topcontent">
 				<div class="_container">
-
+					<div class="row">
 					<div class="text">
 						<div class="text__title">
-							introducing lucid theme
+							<div>introducing lucid theme</div>
 						</div>
 						<div class="text__general">
 							Carefully crafted and <p>beautiful landing page.</p>
 						</div>
 						<div class="text__about">
-							Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus<p>mi, at elementum magna
+							Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus <p>mi, at elementum magna
 								ultricies accumsan. Cras
 								venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
 						</div>
 						<div class="buttons">
-							<div class="left">DOWNLOAD NOW</div>
-							<div class="right"> VIEW FEATURES</div>
+							
+							<button class="left">DOWNLOAD NOW</button>
+							<button class="right">VIEW FEATURES</button>
 						</div>
 					</div>
-					<div class="devices col">
+					<div class="devices">
 						<img src="img/devices.png" alt="error">
 					</div>
+				</div>
 				</div>
 			</div>
 
@@ -75,10 +84,11 @@
 
 
 					</div>
-					<div class="row">
-						<div class="whiteblock_kits ">
+					
+						<div class="whiteblock_kits">
+							<div class="row">
 							<div class="whiteblock_kits_item1 item col">
-								<div class="img"><img src="img/monitor.png" alt="ERROR"></div>
+								<div class="img"><img src="img/icons/monitor.png" alt="ERROR"></div>
 								<div class="title">
 									Responsive
 								</div>
@@ -88,7 +98,7 @@
 								</p>
 							</div>
 							<div class="whiteblock_kits_item2 item col">
-								<div class="img"><img src="img/settings.png" alt="ERROR"></div>
+								<div class="img"><img src="img/icons/settings.png" alt="ERROR"></div>
 
 								<div class="title">
 									Customizable
@@ -99,7 +109,7 @@
 								</p>
 							</div>
 							<div class="whiteblock_kits_item3 item col">
-								<div class="img"><img src="img/like.png" alt="ERROR"></div>
+								<div class="img"><img src="img/icons/like.png" alt="ERROR"></div>
 								<div class="title">
 									Lovely design
 								</div>
@@ -109,7 +119,7 @@
 								</p>
 							</div>
 							<div class="whiteblock_kits_item4 item col">
-								<div class="img"><img src="img/phone.png" alt="ERROR"></div>
+								<div class="img"><img src="img/icons/phone.png" alt="ERROR"></div>
 								<div class="title">
 									Mobile Friendly
 								</div>
@@ -125,22 +135,22 @@
 					<div class="whiteblock__about">
 						<div class="row">
 							<div class="image col">
-								<img src="img/devices2.png" alt="error">
+						<div class="img"><img src="img/devices2.png" alt="error"></div>
 							</div>
 							<div class="text col">
 								<h6>dip into the details</h6>
 								<h1>Beautiful on every device</h1>
-								<img src="img/linii.png" alt="error">
+								<img class="linii" src="img/linii.png" alt="error">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. <span>Morbi accumsan ipsum
 										velit. Nam nec tellus a odio
 										tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in
 										elit.</span></p>
 
 								<ul>
-									<li><img src="img/cup.png" alt="ERROR">Awesome design</li>
-									<li><img src="img/mouse.png" alt="ERROR">Fully responsive</li>
-									<li><img src="img/energy.png" alt="ERROR">Retina ready</li>
-									<li class="lil"><img src="img/speedometer.png" alt="ERROR">Tons of features and easy to use</li>
+									<li><img src="img/icons/cup.png" alt="ERROR">Awesome design</li>
+									<li><img src="img/icons/mouse.png" alt="ERROR">Fully responsive</li>
+									<li><img src="img/icons/energy.png" alt="ERROR">Retina ready</li>
+									<li class="lil"><img src="img/icons/speedometer.png" alt="ERROR">Tons of features and easy to use</li>
 								</ul>
 							</div>
 						</div>
@@ -153,7 +163,7 @@
 						<div class="text col">
 							<h6>dip into the details</h6>
 							<h1>Super easy to customize</h1>
-							<img src="img/linii.png" alt="ERROR">
+						<div class="img2"><img src="img/linii.png" alt="ERROR"></div>
 							<p>
 								Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
 								tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad
@@ -166,10 +176,234 @@
 					</div>
 				</div>
 				</div>
+				
+				<div class="reviews">
+					<div class="blac">
+					<div class="_container">
+						<div class="row">
+							<div class="text col">
+					<h6>quality has its price</h6>
+					<h1>Pricings & Plans</h1>
+				<div class="img"><img src="img/linii.png" alt="ERROR"></div>
+					</div>
+					</div>
+				<div class="sliderr">
+			
+					<div class="slider_item">
+						<p>Once upon a time all the Rivers combined to protest<br> against the action of the Sea in making their waters salt. “When we
+						come to you,” said they to the Sea.</p>
+						<div class="img"><img src="img/elipsa.png" alt="ERROR"></div>
+						<div class="about">
+						<div class="name">John Doe</div>
+						<div class="discription">CEO, THE RIVERS COMPANY</div>
+						</div>
+					</div>
+					<div class="slider_item">
+						<p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is
+						quite dictated by your shoes.</p>
+						<div class="img r"><img src="img/melipsa.png" alt="ERROR"></div>
+						<div class="about">
+						<div class="name">Dean Winchester</div>
+						<div class="discription">UX DESIGNER, GOOGLE INC.</div>
+						</div>
+					</div>
+				
+			
+				<div class="slider_item">
+					<p>Once upon a time all the Rivers combined to protest<br> against the action of the Sea in making their waters salt. “When we
+					come to you,” said they to the Sea.</p>
+					<div class="img"><img src="img/elipsa.png" alt="ERROR"></div>
+					<div class="about">
+					<div class="name">John Doe</div>
+					<div class="discription">CEO, THE RIVERS COMPANY</div>
+				</div>
+				</div>
+				<div class="slider_item">
+					<p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is
+					quite dictated by your shoes.</p>
+					<div class="img r"><img src="img/melipsa.png" alt="ERROR"></div>
+					<div class="about">
+					<div class="name">Dean Winchester</div>
+					<div class="discription">UX DESIGNER, GOOGLE INC.</div>
+				</div>
+				</div>
+				
+				
+				<div class="slider_item">
+					<p>Once upon a time all the Rivers combined to protest<br> against the action of the Sea in making their waters salt. “When we
+					come to you,” said they to the Sea.</p>
+					<div class="img"><img src="img/elipsa.png" alt="ERROR"></div>
+					<div class="about">
+					<div class="name">John Doe</div>
+					<div class="discription">CEO, THE RIVERS COMPANY</div>
+				</div>
+				</div>
+				<div class="slider_item">
+					<p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is
+					quite dictated by your shoes.</p>
+					<div class="img r"><img src="img/melipsa.png" alt="ERROR"></div>
+					<div class="about">
+					<div class="name">Dean Winchester</div>
+					<div class="discription">UX DESIGNER, GOOGLE INC.</div>
+				</div>
+				</div>
+				
+				
+					<div class="slider_item">
+						<p>Once upon a time all the Rivers combined to protest<br> against the action of the Sea in making their waters salt. “When we
+						come to you,” said they to the Sea.</p>
+						<div class="img"><img src="img/elipsa.png" alt="ERROR"></div>
+						<div class="about">
+						<div class="name">John Doe</div>
+						<div class="discription">CEO, THE RIVERS COMPANY</div>
+					</div>
+					</div>
+					<div class="slider_item">
+						<p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is
+						quite dictated by your shoes.</p>
+						<div class="img r"><img src="img/melipsa.png" alt="ERROR"></div>
+						<div class="about">
+						<div class="name">Dean Winchester</div>
+						<div class="discription">UX DESIGNER, GOOGLE INC.</div>
+					</div>
+					</div>
+				
+				</div>
+				</div>
+				</div>
+				</div>
+			<div class="backg">
+				<div class="eye-catcher _container">
+						<div class="row">
+						<div class="left col">
+							<p>Like what you see? <span>Get this great theme now!</span></p>
+							</div>
+						<div class="right col">
+							<button class="view">
+								view features
+							</button>
+							<button class="download">
+								download now
+							</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="pricing _container">
+				<h6>quality has its price</h6>
+				<h2>Pricings & Plans</h2>
+					<div class="img"><img src="img/linii.png" alt="ERROR"></div>
+					<div class="kits">
+						<div class="kit1 kit">
+							<h1>free</h1>
+							<div class="price">
+								<span class="dollar">$</span><span class="number">0</span><br>
+								/per month
+							</div>
+							<div class="disc">
+								<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a>lacinia</a> consectetur.</p>
+								<button>order now</button>
+							</div>
+						</div>
+						<div class="kit2 kit">
+							<h1>personal</h1>
+							<div class="price">
+								<span class="dollar">$</span><span class="number">25</span><br>
+								/per month
+							</div>
+							<div class="disc">
+								<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a>lacinia</a> consectetur.</p>
+								<button>order now</button>
+							</div>
+						</div>
+						<div class="kit3 kit">
+							<h1>business</h1>
+							<div class="price">
+						<span class="dollar">$</span><span class="number">50</span><br>
+						/per month
+							</div>
+							<div class="disc">
+								<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a>lacinia</a> consectetur.</p>
+								<button>order now</button>
+							</div>
+						</div>
+						<div class="kit4 kit">
+							<h1>ultimate</h1>
+							<div class="price">
+								<span class="dollar">$</span><span class="number">99</span><br>
+								/per month
+							</div>
+							<div class="disc">
+								<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a>lacinia</a> consectetur.</p>
+								<button>order now</button>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="contact _container">
+						<h6>stay in touch</h6>
+						<h1>Contact us</h1>
+						
+						<div class="img"><img src="img/linii.png" alt="ERROR"></div>
+						<div class="flex_container row">
+						<div class="phone col">
+							<div class="img"><img src="img/icons/phone.png" alt="ERROR"></div>
+							<div class="telephones">
+								<a href="tel:+14151245678">Phone:(415) 124-5678</a><br>
+								<a href="tel:+14121238290">Fax: (412) 123-8290</a>
+							</div>
+						</div>
+						<div class="geo col">
+							<img src="img/icons/pointer.png" alt="ERROR">
+							<a href="https://goo.gl/maps/wZJPBktveAJwQ9FU9">1001 Brickell Bay Dr.<br>
+								Suite 1900<br>
+								Miami, FL 33131</a>
+							</div>
+						
+						<div class="mail col">
+						<div class="img"><img src="img/icons/envelope.png" alt="ERROR"></div>
+							<a href="support@yourname.com">support@yourname.com</a>					
+							</div>
+						</div>
+						
+						</div>
+					</div>
+					<div class="map">
+						<div class="_container">
+						<div class="registration">
+							<form action="#" method="#">
+							<div class="row">
+								<div class="left col">
+									<input required type="text" placeholder="name *">
+									<input required type="email" placeholder="email *">
+									<input required type="text" placeholder="subject *">
+								</div>
+								<div class="right col">
+									<textarea  required name="" id="" cols="30" rows="10" placeholder="message *"></textarea>
+									<button type="submit">send message</button>
+								</div>
+							</div>
+							</form>
+						</div>
+						</div>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2054341087214!2d-80.192428684979!3d25.763777183635828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823344d3c1%3A0x5cddf1501fa48f97!2zMTAwMSBCcmlja2VsbCBCYXkgRHIgIzE5MDAsIE1pYW1pLCBGTCAzMzE0Mywg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1640679366498!5m2!1sru!2sua"
+						width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+				</div>
+				
 		</main>
 		<footer class="footer">
 	<div class="footer__container _container">
-
+		<div class="container">
+		<div class="icon fab fa-behance"><a href="https://www.behance.net/"></a></div>
+		<div class="icon fab fa-dribbble"><a href="https://dribbble.com/"></a></div>
+		<div class="icon fab fa-twitter"><a href="https://twitter.com/?lang=ru"></a></div>
+		<div class="icon fab fa-facebook-f"><a href="https://uk-ua.facebook.com/"></a></div>
+		<div class="icon fab fa-linkedin-in"><a href="https://ru.linkedin.com/"></a></div>
+		</div>
+		<div class="copyright">copyright © 2014 lucid onepage theme</div>
+		
 	</div>
 </footer>
 	</div>
@@ -200,6 +434,7 @@
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
+<script src="https://kit.fontawesome.com/5001a4357c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
