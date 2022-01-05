@@ -1,0 +1,231 @@
+.topcontent {
+	width: 100%;
+	height: 640px;
+	background-image: url(../img/bg_806.png);
+	background-size: cover;
+	@media (max-width: 991px) {
+		height: 1081px;
+	}
+	@media (max-width:500px) {
+		height: 1107px;
+	}
+	@media (max-width:360px){
+		height: 970px;
+	}
+	._container {
+		@media (max-width: 991px) {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.text {
+			position: relative;
+			top: 140px;
+			left: -2px;
+			@media (max-width: 991px) {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+			}
+			@media (max-width:500px) {
+				justify-content: center;
+				align-items: center;
+			}
+			.text__title {
+				font-family: "Source Sans Pro";
+				font-size: 14px;
+				line-height: 48px;
+				font-weight: 700;
+				word-spacing: 2.1px;
+				text-transform: uppercase;
+				letter-spacing: 0.11em;
+				color: #008ed6;
+				@media (max-width: 991px) {
+				}
+			}
+			.text__general {
+				font-family: "Source Sans Pro";
+				font-size: 48px;
+				line-height: 65px;
+				font-weight: 600;
+				word-spacing: 5px;
+				letter-spacing: 0.3em;
+				text-transform: none;
+				letter-spacing: normal;
+				color: #ffffff;
+
+				p {
+					font-family: "Source Sans Pro";
+					font-size: 48px;
+					font-weight: 600;
+					text-transform: none;
+					letter-spacing: normal;
+					color: #ffffff;
+					line-height: 28px;
+				}
+				@media (max-width:500px) {
+					font-size: 40px;
+					p{
+						font-size: 40px;
+					}
+				}
+				@media (max-width:410px) {
+					font-size: 30px;
+					p{
+						font-size: 30px;
+						line-height: 1px;
+					}
+				}
+			}
+			.text__about {
+				max-width: 480px;
+				font-family: "Source Sans Pro";
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 400;
+				text-transform: none;
+				letter-spacing: normal;
+				color: #999999;
+				margin-top: 20px;
+				position: relative;
+				top: 15px;
+
+				@media (max-width: 991px) {
+					max-width: none;
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+				}
+				@media (max-width:500px) {
+					display: block;
+					width: 480px;
+					text-align: center;
+				}
+				@media (max-width:481px) {
+					width: 320px;
+				}
+				@media (max-width:340px) {
+					width: 290px;
+					
+				}
+			}
+		}
+		.buttons {
+			min-width: 342px;
+			height: 51px;
+			position: absolute;
+			top: 339px;
+			display: flex;
+			justify-content: space-between;
+			@media (max-width: 991px) {
+				min-width: none;
+				display: flex;
+				position: relative;
+				top: 80px;
+				justify-content: center;
+				.left {
+					margin-right: 50px;
+				}
+			}
+			@media (max-width:390px) {
+				.left{
+					margin-right: 20px;
+				}
+			}
+			
+
+			color: #ffffff;
+			.left {
+				width: 165px;
+				border: 1px solid #414146;
+				border-radius: 5px;
+				background-color: #008ed6;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: "Source Sans Pro";
+				font-size: 14px;
+				line-height: 48px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #ffffff;
+				cursor: pointer;
+			}
+			.right {
+				width: 160px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: 1px solid #414146;
+				border-radius: 5px;
+				font-family: "Source Sans Pro";
+				font-size: 14px;
+				line-height: 48px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #ffffff;
+				cursor: pointer;
+			}
+			@media (max-width:355px) {
+				
+				.left{
+					width: 150px;
+					font-size: 12px;
+				}
+				.right{
+					width: 150px;
+					font-size: 12px;
+				}
+			}
+			@media (max-width:330px) {
+				.left{
+					margin-right: 10px;
+				}
+			}
+		}
+		.devices {
+			position: relative;
+			top: -161px;
+			display: flex;
+			justify-content: flex-end;
+			img {
+				width: 500px;
+				height: 520px;
+			}
+			@media (max-width: 1183px) {
+				display: flex;
+				justify-content: flex-end;
+				top: -161px;
+			}
+			@media (max-width: 991px) {
+				top: 239px;
+				justify-content: center;
+			}
+			@media (max-width: 733px) {
+				width: none;
+			}
+			@media (max-width: 481px) {
+				top:289px;
+				img{
+					width: 400px;
+					height: 416px;
+				}
+			}
+			@media (max-width:426px) {
+				top:263px;
+			}
+			@media (max-width:410px) {
+				top:318px;
+			}
+			@media (max-width:360px) {
+				top:285px;
+				img{
+				width: 300px;
+				height: 312px;
+				}
+			}
+		}
+	}
+}

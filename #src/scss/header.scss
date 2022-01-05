@@ -53,9 +53,12 @@
 				top: -15px;
 				transition: 0.4s;
 				justify-content: flex-end;
+				
 
 				li {
-					display: inline-block;
+					position: relative;
+					display: flex;
+					justify-content: center;
 					font-family: "Source Sans Pro";
 					font-size: 16px;
 					line-height: 58px;
@@ -66,6 +69,7 @@
 						color: #fffefe;
 						
 					}
+					
 				}
 
 				.l2 {
@@ -88,22 +92,30 @@
 				}
 				li:hover{
 				.linkdec{
-					position: relative;
-					top:10px;
-					left:-20px;
+					display: block;
+					position: absolute;
+					top:48px;
+					
 				}
 			}
+			
 				
-				@media (max-width: 961px){
+				@media (max-width: 767px){
+					width:1000px;
 					display: flex;
 					justify-content: center;
+					text-align: center;
+					align-content:center;
+					
+				}
+				@media (max-width:587px) {
+	
 				}
 			}
 		}
 	}
-	@media (max-width: 767.98px) {
+	@media (max-width: 767px) {
 		.menu-body {
-			min-width: 590;
 			display: none;
 			background-color: rgba(0,0,0,0.6);
 			transition: 1s;
@@ -116,6 +128,7 @@
 			li {
 				display: flex;
 				justify-content: center;
+				align-content: center;
 			}
 			.l1 {
 				margin-left: 20px;
@@ -124,11 +137,13 @@
 		.menu-body._active {
 			display: flex;
 			flex-direction: column;
+			align-content: flex-center;
+			justify-content: center;
 			position: relative;
 			margin-top: -20px;
-			margin-right: 10%;
 			transition: 1s;
 			border-radius: 3px;
+			
 		
 
 			a {
@@ -136,6 +151,11 @@
 			}
 			@media  (max-width:767.98px){
 				height: 500px;
+			
+			}
+			@media (max-width:587px) {
+			
+				
 			}
 		}
 		.icon-menu {
@@ -187,4 +207,17 @@
 			}
 		}
 	}
+}
+.menu{
+	@media (max-width:768px) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.menu-body{
+		margin-left: -40px;
+		
+		
+
+	}
+}
 }
